@@ -9,6 +9,20 @@
   Stream trending global hits, browse curated cultural genres, download MP3s for offline playback, and enjoy background playback without ads or paywalls.
 </p>
 
+## 📥 Download Standalone APK
+
+Get the latest Android build directly on your device:
+
+[![Download APK](https://img.shields.io/badge/Download-Zafify_v1.0.0_APK-1DB954?style=for-the-badge&logo=android&logoColor=white)](https://expo.dev/accounts/mzafeer335/projects/zafify/builds/c3561da8-c2dc-4fd6-a971-3d846489c04c)
+
+Direct Build Link: [Expo EAS Build Artifact](https://expo.dev/accounts/mzafeer335/projects/zafify/builds/c3561da8-c2dc-4fd6-a971-3d846489c04c)
+
+> **Installation Note**:
+>
+> 1. Open the link on your Android phone and download the `.apk` file.
+> 2. When opening the file, tap **Settings** ➔ toggle **Allow from this source** (or tap **Install Anyway** if prompted about unknown apps).
+> 3. Enjoy ad-free streaming and offline playback!
+
 ---
 
 ## 📱 Highlights & Features
