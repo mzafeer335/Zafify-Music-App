@@ -1,25 +1,44 @@
 {
   "expo": {
     "name": "Zafify",
-    "slug": "Zafify",
+    "slug": "zafify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+      "expo": {
+        "name": "Zafify",
+        "slug": "zafify",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "dark",
+        "android": {
+          "package": "com.zafeer.zafify",
+          "adaptiveIcon": {
+            "foregroundImage": "./assets/icon.png",
+            "backgroundColor": "#0A0A0A"
+          },
+          "permissions": [
+            "android.permission.INTERNET",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            "android.permission.WAKE_LOCK"
+          ]
+        }
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.mzafeer335.zafify"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "d1edbf71-fd47-4fe3-b619-4a2a4e9fd40e"
+      }
     }
   }
 }
